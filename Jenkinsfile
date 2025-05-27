@@ -23,6 +23,11 @@ pipeline {
                 }
             }
         }
+        stage("test"){
+            steps{
+                echo "test developer krega"
+            }
+        }
         stage("deploy"){
             steps{
                 sh "docker run -p 8000:8000 java-image"
