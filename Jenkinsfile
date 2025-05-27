@@ -25,7 +25,7 @@ pipeline {
         }
         stage("test"){
             steps{
-                echo "test developer krega"
+                echo "test developer krega......"
             }
         }
         stage("deploy"){
